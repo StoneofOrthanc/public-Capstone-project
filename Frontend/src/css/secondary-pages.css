@@ -1,0 +1,87 @@
+/** This file created by another team member **/
+
+body {
+    background: #fff;
+}
+
+.card {
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    background: #4267B2;
+    border-radius: 10px;
+}
+
+.card, #freelancer-details-header {
+    padding-top: 20px;
+}
+
+.validated-field {
+    width: 37ch;
+}
+
+#submit {
+    background: #aed9ff;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 20ch;
+}
+
+#close {
+    background: #aed9ff;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#hire {
+    background: #aed9ff;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #BED8FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+    font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+}
+
+.container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: #fff;
+    color: #09217D;
+    border-radius: 10px;
+    padding: 30px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+}
